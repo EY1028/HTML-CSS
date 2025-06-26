@@ -1,0 +1,51 @@
+.bigbox {
+  width: 1000px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.midbox1 {
+  width: 250px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.midbox2 {
+  width: 250px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.minibox {
+  width: 250px;
+  height: 100px;
+}
+.LIVID {
+  background-color: #6a89cc;
+}
+.AZRAQBLUE {
+  background-color: #4a69bd;
+}
+.YUEGUANGLANBLUE {
+  background-color: #1e3799;
+}
+.DARKSAPPHIRE {
+  background-color: #0c2461;
+}
+.SPRAY {
+  background-color: #82ccdd;
+}
+.DUPAIN {
+  background-color: #60a3bc;
+}
+.GOODSAMARITAN {
+  background-color: #3c6382;
+}
+.FORESTBLUES {
+  background-color: #0a3d62;
+}

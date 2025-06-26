@@ -1,0 +1,26 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+}
+.minibox {
+  width: 100px;
+  height: 100px;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.purple {
+  background-color: purple;
+}
