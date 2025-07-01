@@ -1,0 +1,56 @@
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.subtitle {
+  font-size: 16px;
+  color: gray;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card1 {
+  width: 300px;
+  height: 500px;
+  background-image: url("도시.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+}
+
+.card2 {
+  width: 150px;
+  height: 250px;
+  background-image: url("자연속의 집.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+}
+
+.card3 {
+  width: 150px;
+  height: 250px;
+  background-image: url("휴식공간.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+}
+
+.card4 {
+  width: 150px;
+  height: 250px;
+  background-image: url("빌라.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+}
+.category {
+  color: white;
+  font-size: 16px;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
