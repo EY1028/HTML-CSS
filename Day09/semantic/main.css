@@ -1,0 +1,97 @@
+.codyd {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff5160;
+  color: white;
+  border: none;
+
+  border-radius: 5px;
+  z-index: 1000;
+}
+.codyd > button:hover {
+  background-color: #db3b57;
+}
+
+@font-face {
+  font-family: "Galmuri11-Condensed";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2506-1@1.0/Galmuri11-Condensed.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+.first {
+  height: 100vh;
+  background-image: url("옷.jpg");
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.first > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.first > .contents > h2 {
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  line-height: 1.2;
+}
+.first > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.second {
+}
+.second > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.second > .contents > h4 {
+  font-size: 30px;
+  text-align: center;
+  color: #757575;
+  font-weight: bold;
+  font-family: "Galmuri11-Condensed";
+}
+.third > .title {
+  color: gray;
+  font-size: 30px;
+}
+.third > .subtitle {
+  font-size: 40px;
+  font-weight: bold;
+  width: 520px;
+  text-wrap: wrap;
+}
+.third > h6 {
+  color: white;
+}
+.third > h4 {
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  text-wrap: wrap;
+}
+.third > .tag1 {
+  background-image: url("yellow-443508_1280.jpg");
+  background-size: cover;
+}
+.third > .tag2 {
+  background-image: url("hangers-7185447_1280.jpg");
+  background-size: cover;
+}
+.third > .contents > button {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 60px;
+}
