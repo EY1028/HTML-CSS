@@ -1,0 +1,27 @@
+
+
+.first {
+  height: 100vh;
+  background-image: url("images/main_visual_fullscreen-2rLK3y.jpg");
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.first > .contents > h2 {
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  line-height: 1.2;
+  font-family: "Paperlogy-8ExtraBold";
+  font-weight: 500;
+}
