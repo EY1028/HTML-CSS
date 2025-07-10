@@ -1,0 +1,44 @@
+.third {
+  padding: 200px 0;
+}
+
+.third > .contents {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.third > .contents > .pointbox {
+  position: relative;
+  width: 260px;
+  height: 75px;
+}
+.third > .contents > .pointbox > h2 {
+  font-size: 40px;
+  color: #374553;
+  font-weight: 500;
+  padding: 15px 0 15px 0;
+}
+.third > .contents > .pointbox > .point {
+  width: 10px;
+  height: 10px;
+  background-color: #00b8ff;
+  border: none;
+  border-radius: 9999px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.third > .contents > h4 {
+  padding: 30px 0;
+  color: gray;
+  line-height: 30px;
+  font-size: 20px;
+}
+.third > .contents > .card {
+  width: 755px;
+  height: 590px;
+  background-image: url("images/usp_b.jpg");
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,32 @@
+.sixth {
+  padding: 200px 0;
+}
+
+.sixth > .contents {
+  width: 100%;
+  height: 450px;
+  margin: 0 auto;
+  background-color: #ecf0f1;
+}
+.sixth > .contents > h2 {
+  padding: 120px 0;
+  font-size: 40px;
+  text-align: center;
+  color: #bdc3c7;
+  font-weight: 480;
+  font-family: "Paperlogy-8ExtraBold";
+  line-height: 1.3;
+}
+
+.motto {
+  margin-top: 50px;
+}
+.motto > span {
+  color: #00b8ff;
+}
+
+@media screen and(max-width:768px) {
+  .sixth > .contents > h2 {
+    font-size: 20px;
+  }
+}
